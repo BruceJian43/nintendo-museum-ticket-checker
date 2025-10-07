@@ -1,0 +1,30 @@
+{
+    "name": "Nintendo Museum Ticket Checker Extension",
+    "description": "Checks for available Nintendo Museum tickets and sends a notification.",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+        "alarms",
+        "notifications",
+        "cookies",
+        "storage"
+    ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "version": "1.0",
+    "manifest_version": 3,
+    "host_permissions": [
+        "https://museum-tickets.nintendo.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "icons/icon16.png",
+          "48": "icons/icon48.png"
+        }
+      }
+}
