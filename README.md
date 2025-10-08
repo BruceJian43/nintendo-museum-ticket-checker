@@ -1,3 +1,5 @@
+[English](./README.md) | [繁體中文](./README-zh-TW.md)
+---
 # Nintendo Museum Ticket Checker Extension 🎟️
 
 A simple Chrome Extension that automatically checks for available tickets at the Nintendo Museum in Kyoto, Japan. It runs in the background and sends you a chrome notification the moment tickets become available for your selected months.
